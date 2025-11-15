@@ -44,3 +44,16 @@ studentsList.forEach((student) => {
 
 table.appendChild(tbody);
 document.body.appendChild(table);
+ // --- Function interface ---
+interface printTeacherFunction {
+  (firstName: string, lastName: string): string;
+}
+
+// --- Function implementation ---
+const printTeacher: printTeacherFunction = (firstName, lastName) => {
+  return `${firstName} ${lastName}`;
+};
+
+// --- Example usage ---
+console.log(printTeacher("John", "Doe"));  // Output: John Doe
+console.log(printTeacher("Jane", "Smith")); // Output: Jane Smith
