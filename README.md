@@ -10,3 +10,12 @@
       ├── tsconfig.json
       ├── webpack.config.js
       └── js/main.ts
+task_3/
+├─ js/
+│  ├─ crud.js
+│  ├─ crud.d.ts
+│  ├─ interface.ts
+│  └─ main.ts
+├─ package.json
+├─ tsconfig.json
+└─ webpack.config.js
