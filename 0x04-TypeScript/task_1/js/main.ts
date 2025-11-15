@@ -1,27 +1,27 @@
-// 1. Teacher interface from Task 1
+// task_1/js/main.ts
+
+// Teacher interface (assuming it exists from previous task)
 interface Teacher {
   readonly firstName: string;
   readonly lastName: string;
   fullTimeEmployee: boolean;
   yearsOfExperience?: number;
   location: string;
-
-  // Allow any additional attribute
-  [key: string]: any;
+  [key: string]: any; // Allow any additional attributes
 }
 
-// 2. Directors interface extending Teacher
+// Directors interface that extends Teacher
 interface Directors extends Teacher {
   numberOfReports: number;
 }
 
-// 3. Example usage
+// Example usage
 const director1: Directors = {
-  firstName: "John",
-  lastName: "Doe",
+  firstName: 'John',
+  lastName: 'Doe',
+  location: 'London',
   fullTimeEmployee: true,
-  location: "London",
-  numberOfReports: 17
-}
+  numberOfReports: 17,
+};
 
 console.log(director1);
