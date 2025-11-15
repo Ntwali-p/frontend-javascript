@@ -26,3 +26,32 @@ task_0/
 ├── tsconfig.json
 ├── .eslintrc.js
 └── README.md
+
+
+---
+
+## How to Run the Project
+
+### 1. Install dependencies
+
+### 2. Start the development server
+
+### 3. Build the project
+
+### 4. Run tests
+
+---
+
+## Script Description
+
+- `main.ts` defines a `Student` interface
+- Creates two student objects and stores them in an array
+- Dynamically renders a table showing each student's firstName and location
+
+---
+
+## Requirements
+
+- No TypeScript compilation errors
+- All code must follow TypeScript best practices
+- Use DOM API (Vanilla JS) for rendering
