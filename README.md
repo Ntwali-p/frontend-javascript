@@ -1,4 +1,4 @@
-# Task 0 – TypeScript Basics: Student Interface
+# 0x04-TypeScript/Task 0 – TypeScript Basics: Student Interface
 
 This project introduces basic TypeScript concepts, including interfaces, typing, and DOM manipulation.  
 The objective is to create a simple interface, store student data, and display it in a dynamically generated table using Vanilla JavaScript.
