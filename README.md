@@ -19,3 +19,13 @@ task_3/
 ├─ package.json
 ├─ tsconfig.json
 └─ webpack.config.js
+task_4/
+├── package.json
+├── tsconfig.json
+└── js/
+    └── subjects/
+        ├── Cpp.ts
+        ├── Java.ts
+        ├── React.ts
+        ├── Subject.ts
+        └── Teacher.ts
