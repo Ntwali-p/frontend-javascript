@@ -21,7 +21,7 @@ const director1: Directors = {
   lastName: "Doe",
   fullTimeEmployee: true,
   location: "London",
-  numberOfReports: 17,
-};
+  numberOfReports: 17
+}
 
 console.log(director1);
