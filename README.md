@@ -18,17 +18,6 @@ By the end of this task, you should be able to:
 
 ## Project Structure
 
-task_0/
-├── js/
-│ └── main.ts
-├── package.json
-├── webpack.config.js
-├── tsconfig.json
-├── .eslintrc.js
-└── README.md
-
-
----
 
 ## How to Run the Project
 
