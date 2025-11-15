@@ -48,20 +48,4 @@ function createEmployee(salary: number | string): Director | Teacher {
   return new Director();
 }
 
-// --- Task 6: Type guard ---
-function isDirector(employee: Director | Teacher): employee is Director {
-  return (employee as Director).workDirectorTasks !== undefined;
-}
 
-// --- Task 6: executeWork ---
-function executeWork(employee: Director | Teacher): void {
-  if (isDirector(employee)) {
-    console.log(employee.workDirectorTasks());
-  } else {
-    console.log(employee.workTeacherTasks());
-  }
-}
-
-// --- Example usage ---
-executeWork(createEmployee(200));   // Getting to work
-executeWork(createEmployee(1000));  // Getting to director tasks
